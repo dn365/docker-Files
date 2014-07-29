@@ -1,0 +1,6 @@
+cluster:
+  name: graylog2
+
+path:
+  logs: /data/log
+  data: /data/data

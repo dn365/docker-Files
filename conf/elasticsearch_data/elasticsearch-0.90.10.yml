@@ -1,0 +1,11 @@
+cluster.name: graylog2
+node.master: true
+node.data: true
+node.max_local_storage_nodes: 1
+index.number_of_shards: 4
+index.number_of_replicas: 0
+path.data: /data/data
+path.logs: /data/log
+path.plugins: /data/plugins
+bootstrap.mlockall: true
+transport.tcp.compress: true
